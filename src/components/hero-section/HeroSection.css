@@ -127,7 +127,7 @@
 
 @media screen and (max-width: 426px) {
   .hero--section {
-    height: 85vh;
+    height: 75vh;
   }
 
   .hero--section-texts h1 {
