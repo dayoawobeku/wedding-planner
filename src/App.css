@@ -1,0 +1,61 @@
+:root {
+  /* colours */
+  --white: hsla(0, 0%, 100%, 1);
+  --black: hsl(0, 0%, 0%);
+  --grey: hsla(0, 0%, 0%, 0.5);
+  --input: hsla(0, 0%, 0%, 0.6);
+  --color-primary: hsla(33, 71%, 61%, 1);
+  --color-secondary: hsla(332, 43%, 47%, 1);
+  --color-tertiary: hsla(0, 20%, 96%, 1);
+
+  /* font types */
+
+  --manrope: "Manrope", sans-serif;
+  --playfair-display: "PlayFair Display", sans-serif;
+
+  /* font weights */
+  --manrope-regular: 400;
+  --manrope-medium: 500;
+  --manrope-semi-bold: 600;
+  --manrope-bold: 700;
+  --manrope-extrabold: 800;
+  --playfair-regular: 400;
+}
+
+/* general styling */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* SCROLLBAR STYLING */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: var(--color-primary);
+}

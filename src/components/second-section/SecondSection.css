@@ -1,0 +1,318 @@
+.second--section {
+  background-color: var(--color-tertiary);
+}
+
+.second--section-cards-parent {
+  padding-bottom: 10.4rem;
+}
+
+.second--section h2 {
+  font-family: var(--playfair-display);
+  font-weight: var(--playfair-normal);
+  font-size: 4rem;
+  line-height: 6.5rem;
+  text-align: center;
+  max-width: 76.6rem;
+  margin: 0 auto 6.4rem auto;
+  padding-top: 8.8rem;
+}
+
+.second--section-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-cards {
+  padding: 6rem;
+  border: 2px solid var(--color-secondary);
+  border-radius: 20rem;
+}
+
+.second--section-card-h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--playfair-display);
+  font-weight: var(--playfair-normal);
+  font-size: 3.2rem;
+  line-height: 4.3rem;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+  max-width: 100%;
+  width: 31.5rem;
+}
+
+.second--section-card-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second--section-card-p-child {
+  display: flex;
+}
+
+.second--section-card-p-child:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.second--section-card-p .arrow {
+  margin-right: 1.6rem;
+}
+
+.second--section-card-p p {
+  font-family: var(--manrope);
+  font-weight: var(--manrope-normal);
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.second--section-cards {
+  display: flex;
+}
+
+.top-cards {
+  margin-bottom: 8.8rem;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  max-width: 100%;
+}
+
+.card-1 {
+  width: 27.8rem;
+  margin-left: 19.1rem;
+}
+
+.card-2 {
+  width: 30.4rem;
+  margin-left: 10.6rem;
+}
+
+.card-3 {
+  width: 31.6rem;
+  margin-left: 7.9rem;
+}
+
+.card-4 {
+  width: 32rem;
+  margin-left: 16.5rem;
+}
+
+.card-5 {
+  width: 29.3rem;
+  margin-left: 8.8rem;
+}
+
+.card-6 {
+  width: 40.4rem;
+  margin-left: 4.2rem;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 426)*/
+
+@media screen and (max-width: 1024px) {
+  .second--section h2 {
+    line-height: 5.7rem;
+    font-size: 3.6rem;
+  }
+
+  .icon-cards {
+    padding: 5.6rem;
+  }
+
+  .second--section-card-h3 {
+    font-size: 2.8rem;
+    line-height: 3.7rem;
+    /* max-width: 100%;
+    width: 27.6rem; */
+  }
+
+  .second--section-card-p p {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+  }
+
+  .second--section-card-p-child:not(:last-child) {
+    margin-bottom: 0.8rem;
+  }
+
+  .second--section-card-p .arrow {
+    margin-right: 0.8rem;
+  }
+
+  .card-1 {
+    width: 24.4rem;
+    margin-left: 8.2rem;
+  }
+
+  .card-2 {
+    width: 26.2rem;
+    margin-left: 4.7rem;
+  }
+
+  .card-3 {
+    width: 27.3rem;
+    margin-left: 3.3rem;
+  }
+
+  .card-4 {
+    width: 27.6rem;
+    margin-left: 6.6rem;
+  }
+
+  .card-5 {
+    width: 25.3rem;
+    margin-left: 3.6rem;
+  }
+
+  .card-6 {
+    width: 34.9rem;
+    margin-left: 0;
+  }
+
+  .top-cards {
+    margin-bottom: 6.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .second--section-cards-parent {
+    padding-bottom: 7.2rem;
+  }
+
+  .second--section h2 {
+    font-size: 3.2rem;
+    line-height: 5.5rem;
+    max-width: 100%;
+    width: 61.3rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .icon-cards {
+    padding: 4rem;
+  }
+
+  .second--section-card-h3 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .card-1 {
+    width: 20.9rem;
+    margin-left: 5.6rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .card-2 {
+    width: 26.2rem;
+    margin-left: 8rem;
+  }
+
+  .card-3 {
+    width: 27.3rem;
+    margin-left: 2.4rem;
+  }
+
+  .card-4 {
+    width: 27.6rem;
+    margin-left: 2.2rem;
+  }
+
+  .card-5 {
+    width: 25.3rem;
+    margin-left: 5.2rem;
+  }
+
+  .card-6 {
+    width: 34.9rem;
+    position: absolute;
+    bottom: 36.7rem;
+    left: 30rem;
+  }
+
+  .top-cards {
+    margin-bottom: 6.4rem;
+    flex-wrap: wrap;
+  }
+
+  .bottom-cards {
+    flex-wrap: wrap;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .second--section-cards-parent {
+    padding-bottom: 0rem;
+  }
+
+  .second--section h2 {
+    font-size: 2.8rem;
+    line-height: 4rem;
+    max-width: 100%;
+    width: 34.5rem;
+    padding-top: 4.8rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .icon-cards {
+    padding: 3.2rem;
+  }
+
+  .second--section-card-h3 {
+    font-size: 2rem;
+    line-height: 3.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-1 {
+    width: 20.9rem;
+    margin-bottom: 4rem;
+  }
+
+  .card-2 {
+    width: 26.2rem;
+    margin-bottom: 4rem;
+  }
+
+  .card-3 {
+    width: 27.3rem;
+    margin-bottom: 30rem;
+  }
+
+  .card-4 {
+    width: 27.6rem;
+  }
+
+  .card-5 {
+    width: 25.3rem;
+    margin: 4rem auto;
+  }
+
+  .card-6 {
+    bottom: 68rem;
+    left: 4rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .card-6 {
+    left: 1.2rem;
+  }
+}

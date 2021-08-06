@@ -1,0 +1,80 @@
+.third--section {
+  margin-bottom: 14.4rem;
+}
+
+.third--section h3 {
+  font-family: var(--playfair-display);
+  font-weight: var(--playfair-normal);
+  font-size: 4.8rem;
+  line-height: 6.5rem;
+  letter-spacing: 0.6rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 21.1rem;
+  color: var(--white);
+}
+
+.third--section-image {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+  height: 48.8rem;
+  background-image: url(../../assets/web\ second\ section\ image.png);
+  background-size: cover;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 426)*/
+
+@media screen and (max-width: 1024px) {
+  .third--section {
+    margin-bottom: 10.4rem;
+  }
+
+  .third--section h3 {
+    padding-top: 17.5rem;
+    font-size: 4rem;
+    line-height: 5.4rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .third--section-image {
+    height: 40.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .third--section {
+    margin-bottom: 7.2rem;
+  }
+
+  .third--section h3 {
+    padding-top: 17.5rem;
+    font-size: 3.2rem;
+    line-height: 5.1rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .third--section-image {
+    background-image: url(../../assets/x768\ third\ section\ image.png);
+    height: 38.1rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .third--section {
+    margin-bottom: 5.6rem;
+  }
+
+  .third--section h3 {
+    padding-top: 9.1rem;
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .third--section-image {
+    background-image: url(../../assets/x426\ third\ section\ image.png);
+    height: 21.1rem;
+  }
+}

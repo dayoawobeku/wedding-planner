@@ -1,0 +1,141 @@
+.first--section-texts {
+  font-family: var(--playfair-display);
+  font-weight: var(--playfair-regular);
+  max-width: 82.2rem;
+  text-align: center;
+  margin-top: 6.4rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 12rem;
+}
+
+.first--section-texts h3 {
+  font-size: 2.8rem;
+  line-height: 3.7rem;
+}
+
+.first--section-texts p {
+  margin-top: 1.6rem;
+  font-size: 2rem;
+  line-height: 3.6rem;
+}
+
+.first--section-image {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+  width: 120rem;
+  height: 56.3rem;
+  background-image: url(../../assets/web\ first\ section\ image.png);
+  background-size: cover;
+}
+
+.play-video-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.play-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25.8rem;
+  height: 25.8rem;
+  border: 2px solid var(--white);
+  border-radius: 20rem;
+  margin-top: 15.3rem;
+}
+
+.play-video-container {
+  display: flex;
+  cursor: pointer;
+}
+
+.play-video-text {
+  font-family: var(--manrope);
+  font-weight: var(--manrope-bold);
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.4rem;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-left: 0.9rem;
+}
+
+#play:after {
+  content: "\a";
+  white-space: pre;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 426)*/
+
+@media screen and (max-width: 1024px) {
+  .first--section-texts {
+    margin-bottom: 8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .first--section-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: 76.8rem;
+    height: 40.2rem;
+    background-image: url(../../assets/x768\ first\ section\ image.png);
+  }
+
+  .first--section-texts {
+    max-width: 57.4rem;
+    margin-bottom: 6.4rem;
+  }
+
+  .first--section-texts h3 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+
+  .first--section-texts p {
+    font-size: 1.6rem;
+    line-height: 2.9rem;
+  }
+
+  .play-video {
+    width: 18.4rem;
+    height: 18.4rem;
+    border: 1px solid var(--white);
+    margin-top: 10.9rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .first--section-texts {
+    max-width: 33.7rem;
+  }
+
+  .first--section-texts h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .first--section-image {
+    max-width: 100%;
+    max-height: 100%;
+    height: 23.4rem;
+    background-image: url(../../assets/x768\ first\ section\ image.png);
+  }
+
+  .play-video {
+    width: 9.8rem;
+    height: 9.8rem;
+    border: 1px solid var(--white);
+    margin-top: 6.8rem;
+  }
+
+  .play-video-text {
+    font-weight: var(--manrope-semibold);
+    line-height: 1.8rem;
+    letter-spacing: 0.3rem;
+  }
+}

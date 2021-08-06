@@ -1,0 +1,148 @@
+.hero--section {
+  max-height: 100%;
+  height: 100vh;
+  background-image: url(../../assets//web\ hero\ image.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero--section-texts-parent {
+  display: flex;
+  text-align: center;
+}
+
+.hero--section-texts {
+  font-family: var(--playfair-display);
+  color: var(--white);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14.4rem;
+}
+
+.hero--section-texts h1 {
+  font-size: 7.2rem;
+  font-weight: var(--playfair-regular);
+  line-height: 9.6rem;
+}
+
+.hero--section-texts p {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-top: 0.8rem;
+}
+
+.hero--section-btn {
+  margin-top: 7.2rem;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 0.2rem;
+  padding: 1.4rem 4.6rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: var(--white);
+  font-family: var(--manrope);
+  font-size: 1.8rem;
+  font-weight: var(--manrope-extrabold);
+  line-height: 2.7rem;
+  letter-spacing: 0.16rem;
+  filter: drop-shadow(0px 14px 52px rgba(226, 162, 85, 0.4));
+}
+
+.images-loop {
+  margin-top: 9.6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.images-loop > * {
+  margin-right: 2.4rem;
+  cursor: pointer;
+}
+
+.images-loop_child:first-child {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: var(--white);
+  border-radius: 2rem;
+}
+
+.images-loop_child {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid var(--white);
+  border-radius: 2rem;
+}
+
+/* MEDIA QUERIES for screens (1024, 768, 426)*/
+
+@media screen and (max-width: 1024px) {
+  .hero--section-texts {
+    margin-top: 9.6rem;
+  }
+
+  .hero--section-texts h1 {
+    font-size: 5.6rem;
+    line-height: 7.5rem;
+  }
+
+  .hero--section-btn {
+    padding: 1rem 3.2rem;
+  }
+
+  .images-loop {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero--section-texts {
+    margin-top: 9.6rem;
+  }
+
+  .hero--section-btn {
+    padding: 1rem 3.2rem;
+  }
+
+  .images-loop {
+    margin-top: 8rem;
+  }
+
+  .hero--section-btn {
+    margin-top: 7.2rem;
+    letter-spacing: 0.14rem;
+    padding: 1rem 2.8rem;
+    font-size: 1.4rem;
+  }
+
+  .images-loop_child {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+
+  .images-loop > * {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .hero--section {
+    height: 85vh;
+  }
+
+  .hero--section-texts h1 {
+    font-size: 3.2rem;
+    line-height: 5.3rem;
+  }
+
+  .hero--section-texts p {
+    max-width: 100%;
+    width: 30rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .images-loop {
+    display: none;
+  }
+}
