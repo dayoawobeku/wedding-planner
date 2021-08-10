@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { SliderData } from "./SliderData";
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+// import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { BiCaretRightCircle, BiCaretLeftCircle } from "react-icons/bi";
 
 const ImageSlider = ({ slides, children }) => {
   const [current, setCurrent] = useState(0);
@@ -20,8 +21,8 @@ const ImageSlider = ({ slides, children }) => {
 
   return (
     <section className="slider">
-      <FaArrowAltCircleLeft className="left-arrow" onClick={nextSlide} />
-      <FaArrowAltCircleRight className="right-arrow" onClick={prevSlide} />
+      <BiCaretLeftCircle className="left-arrow" onClick={nextSlide} />
+      <BiCaretRightCircle className="right-arrow" onClick={prevSlide} />
 
       {SliderData.map((slide, index) => {
         return (
