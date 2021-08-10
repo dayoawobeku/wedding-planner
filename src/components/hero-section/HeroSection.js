@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import Button from "../Button";
 import Navbar from "../navbar/Navbar";
 import "./HeroSection.css";
+import ImageSlider from "./ImageSlider";
+import { SliderData } from "./SliderData";
 
 const HeroSection = () => {
   return (
-    <div className="hero--section">
-      <div className="hero--image">
+    <ImageSlider slides={SliderData}>
+      <div className="cont">
         <Navbar />
         <div className="hero--section-texts-parent">
           <div className="hero--section-texts">
@@ -18,18 +20,8 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-
-        <div className="images-loop">
-          <div className="images-loop_child"></div>
-          <div className="images-loop_child"></div>
-          <div className="images-loop_child"></div>
-          <div className="images-loop_child"></div>
-          <div className="images-loop_child"></div>
-          <div className="images-loop_child"></div>
-          <div className="images-loop_child"></div>
-        </div>
       </div>
-    </div>
+    </ImageSlider>
   );
 };
 

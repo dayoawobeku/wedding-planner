@@ -2,9 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 4.8rem;
-  margin-right: 12rem;
-  margin-left: 12rem;
+  padding-top: 2rem;
+  z-index: 10;
 }
 
 .nav--left-lis,
@@ -13,6 +12,14 @@
   font-family: var(--manrope);
   font-weight: var(--manrope-regular);
   text-transform: uppercase;
+}
+
+.nav--left-lis {
+  padding-right: 17.5rem;
+}
+
+.nav--right-lis {
+  padding-left: 9.6rem;
 }
 
 .nav--link {
@@ -104,6 +111,14 @@
     display: none;
   }
 
+  .nav--left-lis {
+    padding-right: 0;
+  }
+
+  .nav--right-lis {
+    padding-left: 0;
+  }
+
   .search-icon {
     display: none;
   }
@@ -121,7 +136,7 @@
     height: 5.5rem;
     margin-top: 2.4rem;
     margin-bottom: 1rem;
-    margin-left: 4.8rem;
+    margin-left: -3rem;
   }
 
   .nav-container {
@@ -143,12 +158,6 @@
     text-align: center;
     height: 28rem;
     z-index: 2;
-  }
-
-  .search-icon {
-    margin-left: 0;
-    background: red;
-    fill: green;
   }
 
   .nav--parent {
@@ -183,7 +192,7 @@
   .btn-mobile {
     position: absolute;
     top: 4rem;
-    right: 4.8rem;
+    right: -3rem;
     display: flex;
     background: none;
     color: var(--white);
@@ -196,12 +205,12 @@
     height: 3.8rem;
     margin-top: 3.2rem;
     margin-bottom: 1rem;
-    margin-left: 2.4rem;
+    margin-left: -3rem;
   }
 
   .btn-mobile {
     top: 4rem;
-    right: 2.4rem;
+    right: -2rem;
   }
 
   .nav--link {
