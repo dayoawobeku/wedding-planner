@@ -22,7 +22,8 @@
   height: 50.2rem;
   width: 59rem;
   margin-left: 12rem;
-  border-radius: 2px;
+  border-radius: 4px;
+  object-fit: contain;
 }
 
 .testimonials--image-small {
@@ -47,23 +48,31 @@
   line-height: 2.2rem;
   letter-spacing: 0.4rem;
   margin-top: 3.2rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
 }
 
-.testimonials--arrows {
-  margin-top: 41.8rem;
+.testimonials ul {
+  display: none !important;
 }
 
-.testimonials--arrows > * {
-  cursor: pointer;
+.testimonials .slick-prev,
+.testimonials .slick-next {
+  top: 94%;
 }
 
-.next-arrow {
-  margin-left: 3.2rem;
-}
-
-.previous-arrow-small,
-.next-arrow-small {
+.testimonials .slick-prev::before,
+.testimonials .slick-next::before {
   display: none;
+}
+
+.testimonials .slick-next {
+  right: 14%;
+}
+
+.testimonials .slick-prev {
+  left: 80%;
+  z-index: 50;
 }
 
 /* MEDIA QUERIES for screens (1024, 768, 426)*/

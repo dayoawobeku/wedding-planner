@@ -3,10 +3,8 @@ import "./SecondSection.css";
 import SecondSectionCards from "./SecondSectionCards";
 import ideas from "../../assets/ideas and inspiration icon.svg";
 import budget from "../../assets/budget and checklist icon.svg";
-import registries from "../../assets/registries icon.svg";
 import checklist from "../../assets/checklist icon.svg";
 import vendors from "../../assets/vendors icon.svg";
-import travel from "../../assets/travel and destinations icon.svg";
 
 const SecondSection = () => {
   return (
@@ -31,14 +29,6 @@ const SecondSection = () => {
             text2="customize categories"
             text3="starter templates"
           />
-          <SecondSectionCards
-            className="card-3"
-            icon={registries}
-            heading="Registries"
-            text1="all your favorites in one place"
-            text2="add registries to your wedding website"
-            text3="find unique registry gift ideas"
-          />
         </div>
 
         <div className="second--section-cards bottom-cards">
@@ -58,15 +48,6 @@ const SecondSection = () => {
             text1="find local professionals"
             text2="see reviews from across the web"
             text3="save and communicate in one place"
-          />
-
-          <SecondSectionCards
-            className="card-6"
-            icon={travel}
-            heading="Travel & Destinations"
-            text1="getaways for destination wedding and honeymoon"
-            text2="dream-worthy destinations"
-            text3="travel advice & planning"
           />
         </div>
       </div>

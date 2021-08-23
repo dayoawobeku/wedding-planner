@@ -3,7 +3,7 @@ import FirstSection from "./components/first-section/FirstSection";
 import Footer from "./components/footer/Footer";
 import HeroSection from "./components/hero-section/HeroSection";
 import SecondSection from "./components/second-section/SecondSection";
-import Testimonials from "./components/testimonials/Testimonials";
+import Testimonial from "./components/testimonials/Testimonial";
 import ThirdSection from "./components/third-section/ThirdSection";
 
 function Homepage() {
@@ -13,7 +13,7 @@ function Homepage() {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
-      <Testimonials />
+      <Testimonial />
       <Footer />
     </>
   );

@@ -16,10 +16,6 @@ const VideoModal = () => {
         onClose={() => setOpen(false)}
       />
 
-      {/* <button className="btn-primary" onClick={() => setOpen(true)}>
-        Play Video
-      </button> */}
-
       <p className="btn-primary" onClick={() => setOpen(true)}>
         <img
           src={playVideo}
@@ -28,10 +24,6 @@ const VideoModal = () => {
         />
         <span id="play">play</span> <span>video</span>
       </p>
-
-      {/* <button className="btn-primary" onClick={() => setOpen(true)}>
-        Play Video
-      </button> */}
     </>
   );
 };

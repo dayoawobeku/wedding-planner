@@ -2,14 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../Button";
 import Navbar from "../navbar/Navbar";
-import "./HeroSection.css";
 import ImageSlider from "./ImageSlider";
-import { SliderData } from "./SliderData";
+import "./HeroSection.css";
 
 const HeroSection = () => {
   return (
-    <ImageSlider slides={SliderData}>
-      <div className="cont">
+    <>
+      <ImageSlider />
+      <div className="hero--section__container">
         <Navbar />
         <div className="hero--section-texts-parent">
           <div className="hero--section-texts">
@@ -21,7 +21,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </ImageSlider>
+    </>
   );
 };
 
