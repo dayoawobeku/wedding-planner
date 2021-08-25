@@ -1,0 +1,8 @@
+.black {
+  color: black;
+}
+
+.active {
+  color: var(--color-primary);
+  font-weight: var(--manrope-medium);
+}

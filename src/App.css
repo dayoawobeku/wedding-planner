@@ -46,17 +46,17 @@ li {
 /* SCROLLBAR STYLING */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
   background-color: #ebebeb;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  background: var(--color-primary);
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: rgba(119, 119, 119, 0.4);
 }

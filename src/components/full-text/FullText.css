@@ -1,0 +1,33 @@
+.full-text {
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5.6rem;
+}
+
+.full-text p {
+  font-family: var(--manrope);
+  font-weight: var(--manrope-regular);
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #777;
+}
+
+@media screen and (max-width: 1200px) {
+  .full-text {
+    max-width: 94rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .full-text {
+    max-width: 74rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .full-text {
+    max-width: 90%;
+  }
+}

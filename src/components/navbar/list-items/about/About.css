@@ -1,0 +1,106 @@
+.who-we-are,
+.mission {
+  margin-bottom: 20.4rem;
+}
+
+.images-container {
+  display: flex;
+  max-width: 120rem;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images-container img {
+  object-fit: cover;
+  max-width: 38rem;
+  width: 32%;
+  border-radius: 0.2rem;
+}
+
+.color {
+  background: var(--color-primary);
+}
+
+.mission-vision-container {
+  width: 100%;
+  display: flex;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3.2rem;
+  padding-bottom: 6.4rem;
+  color: var(--white);
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 3.2rem;
+}
+
+.mission-vision-container img {
+  object-fit: cover;
+  max-width: 100%;
+  border-radius: 0.2rem;
+}
+
+.mission-vision-container h3 {
+  font-size: 2.4rem;
+  letter-spacing: 0.15rem;
+}
+
+.mission-vision-container h4 {
+  font-family: var(--playfair-display);
+  font-weight: var(--playfair-regular);
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2.4rem;
+}
+
+.mission-vision-container p {
+  font-family: var(--manrope);
+  font-weight: var(--manrope-medium);
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .mission-vision-container,
+  .images-container {
+    max-width: 94rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mission-vision-container,
+  .images-container {
+    max-width: 74rem;
+  }
+
+  .mission-vision-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .images-container img {
+    display: none;
+  }
+  .mission-vision-container {
+    flex-wrap: wrap;
+  }
+
+  .left,
+  .right {
+    width: 90%;
+  }
+
+  .right {
+    margin-top: 2.4rem;
+  }
+}

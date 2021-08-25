@@ -51,7 +51,7 @@
   cursor: pointer;
 }
 
-.play-video-text {
+.play-video-container p {
   font-family: var(--manrope);
   font-weight: var(--manrope-bold);
   font-size: 1.4rem;
@@ -108,7 +108,7 @@
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 576px) {
   .first--section-texts {
     max-width: 33.7rem;
   }
@@ -132,9 +132,10 @@
     margin-top: 6.8rem;
   }
 
-  .play-video-text {
+  .play-video-container p {
     font-weight: var(--manrope-semibold);
     line-height: 1.8rem;
     letter-spacing: 0.3rem;
+    font-size: 1.2rem;
   }
 }

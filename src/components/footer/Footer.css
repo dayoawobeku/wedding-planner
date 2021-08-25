@@ -1,11 +1,13 @@
 .footer {
-  margin-right: 12rem;
-  margin-left: 12rem;
+  margin-top: 14rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 114rem;
 }
 
 .footer--container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer h4,
@@ -91,10 +93,10 @@
 /* MEDIA QUERIES for screens (1024, 768, 426)*/
 
 @media screen and (max-width: 1024px) {
-  .footer {
+  /* .footer {
     margin-right: 8rem;
     margin-left: 8rem;
-  }
+  } */
 
   .footer h4 {
     font-size: 2rem;
@@ -107,11 +109,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .footer {
+@media screen and (max-width: 900px) {
+  /* .footer {
     margin-right: 5.6rem;
     margin-left: 5.6rem;
-  }
+  } */
 
   .footer h4 {
     font-size: 1.6rem;
@@ -154,7 +156,7 @@
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 576px) {
   .footer {
     margin-right: 3.2rem;
     margin-left: 3.2rem;
