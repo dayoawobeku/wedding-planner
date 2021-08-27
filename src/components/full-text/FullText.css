@@ -31,3 +31,15 @@
     max-width: 90%;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .full-text {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .full-text p {
+    font-size: 3.7vw;
+    line-height: 1.8;
+  }
+}

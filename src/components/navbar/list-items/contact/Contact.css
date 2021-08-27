@@ -118,8 +118,8 @@ p {
 }
 
 .contact-us h3 {
-  font-size: 20px;
-  margin: 10px 0;
+  font-size: 2rem;
+  margin: 1rem 0;
   font-weight: 400;
 }
 
@@ -286,5 +286,19 @@ textarea:valid ~ label {
   .container .right,
   .container .left {
     margin-left: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contact-us h1 {
+    font-size: 8.5vw;
+  }
+
+  .contact-us h3 {
+    font-size: 5.3vw;
+  }
+
+  .details p {
+    font-size: 3.7vw;
   }
 }

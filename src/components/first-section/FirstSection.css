@@ -139,3 +139,12 @@
     font-size: 1.2rem;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .first--section-texts h3 {
+    font-size: 5.3vw;
+  }
+  .first--section-texts p {
+    font-size: 4.2vw;
+  }
+}

@@ -28,13 +28,16 @@
 }
 
 .testimonials--text {
-  font-family: var(--manrope);
   font-size: 1.6rem;
   text-align: center;
   max-width: 100%;
   width: 55.8rem;
   margin-left: 3.2rem;
   margin-top: 15.6rem;
+}
+
+.testimonials--text p {
+  font-family: var(--manrope);
 }
 
 .testimonials--main-text {
@@ -202,5 +205,13 @@
   .testimonials--arrows {
     margin-left: 16rem;
     margin-right: 16rem;
+  }
+
+  .testimonials h2 {
+    font-size: 7.4vw;
+  }
+
+  .testimonials--text p {
+    font-size: 3.7vw;
   }
 }

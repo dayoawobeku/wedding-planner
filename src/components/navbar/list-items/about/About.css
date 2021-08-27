@@ -47,11 +47,14 @@
   object-fit: cover;
   max-width: 100%;
   border-radius: 0.2rem;
+  margin-bottom: 1.6rem;
 }
 
 .mission-vision-container h3 {
   font-size: 2.4rem;
   letter-spacing: 0.15rem;
+  word-wrap: break-word;
+  margin-bottom: 0.8rem;
 }
 
 .mission-vision-container h4 {
@@ -59,7 +62,7 @@
   font-weight: var(--playfair-regular);
   font-size: 2rem;
   letter-spacing: 0.1rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.6rem;
 }
 
 .mission-vision-container p {
@@ -101,6 +104,28 @@
   }
 
   .right {
-    margin-top: 2.4rem;
+    margin-top: 5.6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .who-we-are,
+  .mission {
+    margin-bottom: 0rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mission-vision-container h3 {
+    font-size: 6.4vw;
+  }
+
+  .mission-vision-container h4 {
+    font-size: 5.3vw;
+  }
+
+  .mission-vision-container p {
+    font-size: 3.7vw;
+    line-height: 1.8;
   }
 }

@@ -10,6 +10,9 @@ const NavbarDark = () => {
   return (
     <navbar>
       <nav className="nav-container nav-container-black">
+        <NavLink to="/">
+          <LogoDark className="nav-logo logo-dark-768" />
+        </NavLink>
         <ul
           className={isMobile ? "nav-lis-mobile" : "nav--parent"}
           onClick={() => setIsMobile(false)}
@@ -88,7 +91,10 @@ const NavbarDark = () => {
         </ul>
       </nav>
 
-      <button className="btn-mobile" onClick={() => setIsMobile(!isMobile)}>
+      <button
+        className="btn-mobile btn-mobile-dark"
+        onClick={() => setIsMobile(!isMobile)}
+      >
         {isMobile ? <i class="im im-x-mark"></i> : <i class="im im-menu"></i>}
       </button>
     </navbar>

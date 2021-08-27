@@ -245,7 +245,7 @@
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 576px) {
   .second--section-cards-parent {
     padding-bottom: 0rem;
   }
@@ -310,5 +310,9 @@
 @media screen and (max-width: 376px) {
   .card-6 {
     left: 1.2rem;
+  }
+
+  .second--section h2 {
+    font-size: 7.4vw;
   }
 }

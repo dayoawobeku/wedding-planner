@@ -61,7 +61,7 @@
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 576px) {
   .third--section {
     margin-bottom: 5.6rem;
   }
@@ -76,5 +76,11 @@
   .third--section-image {
     background-image: url(../../assets/x426\ third\ section\ image.png);
     height: 21.1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .third--section h3 {
+    font-size: 5.8vw;
   }
 }

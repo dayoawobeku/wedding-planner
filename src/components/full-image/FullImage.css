@@ -27,6 +27,7 @@
   font-size: 4rem;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  width: 87%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -44,5 +45,15 @@
 @media screen and (max-width: 768px) {
   .full-image {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .full-image {
+    margin-bottom: 2.4rem;
+  }
+
+  .full-image h2 {
+    font-size: 6.9vw;
   }
 }

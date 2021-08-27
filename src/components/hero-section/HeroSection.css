@@ -49,6 +49,10 @@
   filter: drop-shadow(0px 14px 52px rgba(226, 162, 85, 0.4));
 }
 
+.slick-slider {
+  overflow-x: hidden;
+}
+
 .hero--section .slick-list {
   height: 100vh;
 }
@@ -170,5 +174,15 @@
   .hero--section-texts p {
     font-size: 1.8rem;
     line-height: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero--section-texts h1 {
+    font-size: 8.5vw;
+  }
+
+  .hero--section-texts p {
+    font-size: 4.6vw;
   }
 }

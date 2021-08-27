@@ -6,3 +6,41 @@
   color: var(--color-primary);
   font-weight: var(--manrope-medium);
 }
+
+.btn-mobile-dark {
+  color: black;
+  top: 3.2rem;
+}
+
+.logo-dark-768 {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-logo {
+    display: none;
+  }
+
+  .logo-dark-768 {
+    display: block;
+    width: 12.9rem;
+    height: 5.5rem;
+    margin-top: 1.6rem;
+    margin-bottom: 0rem;
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo-dark-768 {
+    width: 10.1rem;
+    height: 3.8rem;
+    margin-top: 3.2rem;
+    margin-bottom: 1rem;
+    margin-left: 2.4rem;
+  }
+  .btn-mobile-dark {
+    top: 4rem;
+    right: 2.4rem;
+  }
+}
