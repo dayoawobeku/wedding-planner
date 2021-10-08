@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import NavLogo from "./list-items/NavLogo";
-import search from "../../assets/nav search icon.svg";
-import blackSearch from "../../assets/nav search icon black.svg";
+// import search from "../../assets/nav search icon.svg";
+// import blackSearch from "../../assets/nav search icon black.svg";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);

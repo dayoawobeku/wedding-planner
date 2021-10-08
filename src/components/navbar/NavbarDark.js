@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./NavbarDark.css";
 import { NavLink } from "react-router-dom";
-import blackSearch from "../../assets/black-search-icon.svg";
+// import blackSearch from "../../assets/black-search-icon.svg";
 import LogoDark from "./list-items/LogoDark";
 
 const NavbarDark = () => {
