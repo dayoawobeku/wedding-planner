@@ -33,7 +33,15 @@
   max-width: 100%;
   width: 55.8rem;
   margin-left: 3.2rem;
-  margin-top: 15.6rem;
+  margin-top: 8.6rem;
+}
+
+.read-more {
+  font-size: 1.4rem;
+  font-family: var(--playfair-display);
+  font-weight: var(--playfair-regular);
+  color: var(--color-primary);
+  cursor: pointer;
 }
 
 .testimonials--text p {
@@ -46,9 +54,8 @@
 
 .testimonials--couple-name {
   line-height: 2.2rem;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.2rem;
   margin-top: 3.2rem;
-  text-transform: uppercase;
   font-size: 1.4rem;
 }
 

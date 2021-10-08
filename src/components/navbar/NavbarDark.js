@@ -76,7 +76,7 @@ const NavbarDark = () => {
               </NavLink>
             </li>
 
-            <img
+            {/* <img
               src={blackSearch}
               alt="search-icon"
               className="search-icon black "
@@ -86,7 +86,7 @@ const NavbarDark = () => {
               src={blackSearch}
               alt="search-icon"
               className="black--search-icon"
-            />
+            /> */}
           </div>
         </ul>
       </nav>

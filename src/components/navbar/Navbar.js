@@ -74,13 +74,13 @@ const Navbar = () => {
               </NavLink>
             </li>
 
-            <img src={search} alt="search-icon" className="search-icon" />
+            {/* <img src={search} alt="search-icon" className="search-icon" /> */}
 
-            <img
+            {/* <img
               src={blackSearch}
               alt="search-icon"
               className="black--search-icon"
-            />
+            /> */}
           </div>
         </ul>
       </nav>

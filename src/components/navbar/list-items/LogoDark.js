@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../assets/footer logo.svg";
+import logo from "../../../assets/logo.svg";
 
 const LogoDark = ({ className }) => {
   return (
